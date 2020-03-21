@@ -68,6 +68,8 @@
         <Reference Include="System.Numerics.Vectors" />
         <Reference Include="NativeLibrary">
           <HintPath>..\NativeLibrary.dll</HintPath>
+          <IncludeInPackage>true</IncludeInPackage>
+          <Private>False</Private>
         </Reference>
     </ItemGroup>
     <ItemGroup>
