@@ -14,8 +14,10 @@ namespace DemoJitsiApp
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
-            var view = new JitsiMeetView();
-            view.Delegate = new CustomJitsiMeetViewDelegate();
+            var view = new JitsiMeetView
+            {
+                Delegate = new CustomJitsiMeetViewDelegate()
+            };
             var options = JitsiMeetConferenceOptions.FromBuilder( builder =>
             {
                 //builder.ServerURL = new NSUrl("meet.jit.si");
@@ -23,7 +25,7 @@ namespace DemoJitsiApp
                 builder.WelcomePageEnabled = true;
             });
             view.Join(options);
-            this.View.AddSubview(view);
+            View.AddSubview(view);
             view.Frame = View.Bounds;
             // Perform any additional setup after loading the view, typically from a nib.
         }
