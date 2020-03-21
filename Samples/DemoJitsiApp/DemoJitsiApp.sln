@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoJitsiApp", "DemoJitsiApp\DemoJitsiApp.csproj", "{BC8A23BA-5F89-4DE3-9574-1531B0534BCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JitsiMeetXamarin", "..\JitsiMeetXamarin\JitsiMeetXamarin\JitsiMeetXamarin.csproj", "{B9A99486-418C-4B45-B92C-A19EEE01AC86}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{054BA660-01F6-4C08-A18A-1941E33BAFC4}"
 EndProject
 Global
@@ -23,13 +21,5 @@ Global
 		{BC8A23BA-5F89-4DE3-9574-1531B0534BCC}.Debug|iPhone.Build.0 = Debug|iPhone
 		{BC8A23BA-5F89-4DE3-9574-1531B0534BCC}.Release|iPhone.ActiveCfg = Release|iPhone
 		{BC8A23BA-5F89-4DE3-9574-1531B0534BCC}.Release|iPhone.Build.0 = Release|iPhone
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{B9A99486-418C-4B45-B92C-A19EEE01AC86}.Release|iPhone.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
