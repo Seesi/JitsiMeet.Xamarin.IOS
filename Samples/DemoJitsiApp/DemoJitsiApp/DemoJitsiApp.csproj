@@ -67,7 +67,8 @@
         <Reference Include="System.Numerics" />
         <Reference Include="System.Numerics.Vectors" />
         <Reference Include="NativeLibrary">
-          <HintPath>..\..\JitsiMeetXamarin\JitsiMeetXamarin\bin\Release\NativeLibrary.dll</HintPath>
+          <HintPath>..\..\..\..\..\JitsiMeetXamarin\JitsiMeetXamarin\bin\Release\NativeLibrary.dll</HintPath>
+          <IncludeInPackage>false</IncludeInPackage>
         </Reference>
     </ItemGroup>
     <ItemGroup>
