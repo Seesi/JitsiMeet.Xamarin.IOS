@@ -51,6 +51,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>None</MtouchLink>
     <MtouchInterpreter>-all</MtouchInterpreter>
+    <CodesignProvision>nf_testers_06</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
     <DebugType>none</DebugType>
@@ -136,7 +137,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\DemoJitsiAppXamarinForms\DemoJitsiAppXamarinForms.csproj">
-      <Project>{34A9E247-DF59-4FCC-8EDE-43373AF28770}</Project>
+      <Project>{114FB89F-1266-4655-8B9C-29E1A3C0C17C}</Project>
       <Name>DemoJitsiAppXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>

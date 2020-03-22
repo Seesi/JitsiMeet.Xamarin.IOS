@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -90,7 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DemoJitsiAppXamarinForms\DemoJitsiAppXamarinForms.csproj">
-      <Project>{34A9E247-DF59-4FCC-8EDE-43373AF28770}</Project>
+      <Project>{114FB89F-1266-4655-8B9C-29E1A3C0C17C}</Project>
       <Name>DemoJitsiAppXamarinForms</Name>
     </ProjectReference>
   </ItemGroup>
