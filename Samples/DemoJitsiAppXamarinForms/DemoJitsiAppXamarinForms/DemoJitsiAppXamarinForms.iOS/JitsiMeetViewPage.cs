@@ -20,8 +20,18 @@ namespace DemoJitsiAppXamarinForms.iOS
             {
                 builder.ServerURL = new NSUrl("meet.jit.si");
                 builder.Room = "testRom";
-                builder.WelcomePageEnabled = true;
+                builder.WelcomePageEnabled = true;               
             }));
+            Delegate = new MeetingDelegate();
+        }
+    }
+
+    public class MeetingDelegate : JitsiMeetViewDelegate
+    {
+        [Export("conferenceTerminated:")]
+        public override void ConferenceTerminated(NSDictionary data)
+        {
+            // Do something
         }
     }
 }
